@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+   <body>
+       <h1>Guest list app</h1>
+
+    <form action = "/show_guest_list" method = "post">
+        <h3>Show guest list.</h3>
+        <p><input type = "submit" value = "show" /></p>
+     </form>
+
+      <form action = "/add_guest" method = "post">
+         <h3>Add guest to list.</h3>
+         <p>Enter guests name:</p>
+         <p><input type = "text" name = "nm" /></p>
+         <p><input type = "submit" value = "add" /></p>
+      </form>
+
+      <form action = "/mark_guest_arrived" method = "post">
+        <h3>Mark guest as arrived.</h3>
+        <p>Enter guests name:</p>
+        <p><input type = "text" name = "nm" /></p>
+        <p><input type = "submit" value = "mark" /></p>
+     </form>
+   </body>
+</html>
